@@ -1,0 +1,10 @@
+# Carpetas innecesarias
+target/
+.git/
+.idea/
+.vscode/
+
+# Archivos irrelevantes
+README.md
+Dockerfile
+.dockerignore
