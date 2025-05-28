@@ -21,7 +21,7 @@ RUN ./mvnw clean package -DskipTests
 # -------------------------
 
 # Usamos una imagen más liviana solo con Java 8 (sin Maven)
-FROM eclipse-temurin:8-jdk-alpine
+FROM eclipse-temurin:8-jdk
 
 # Definimos la carpeta donde vivirá la app
 WORKDIR /app
